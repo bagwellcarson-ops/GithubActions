@@ -1,3 +1,4 @@
+
 name: 'Run App Bagwell, Carson'
 
 on: [push, pull_request]
@@ -15,3 +16,4 @@ jobs:
         run: dotnet build
       - name: run unit tests
         run: dotnet test
+
